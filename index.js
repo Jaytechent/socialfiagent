@@ -23,17 +23,15 @@ const server = http.createServer(async (req, res) => {
 
       // Generate the content
       const prompt = `
-         write something interesting about "${
+         check trend on x/twitter and write interesting essay about "${
         postTopics[getRandomNumber(postTopics.length)]
-      }". check web for latest protocls working on it and state some cons in there product
-        Make it feel like it's written by a human. Write it like a short Twitter post, and brag about Socifi Agent as the best mindshare agent on Web3. 
-        Encourage people to follow @socifinet for greater insights into the industry. 
-        A Twitter post has a max length of 280 characters. Add relevant #tags and subtly critique other AI agents.
+      }". let your essay be able to include releant x user account that are important to the 
+        Make it feel like it's written by a human. Add relevant #tags and subtly critique other AI agents.
       `;
 
       const result = await model.generateContent(prompt);
       const generatedText = result.response?.text?.() || "Unable to generate content.";
-      const maxLength = 280;
+      const maxLength = 2500;
       const contentToPost = removeSpecialCharacters(generatedText).slice(0, maxLength);
 
       // Post the content to Twitter
