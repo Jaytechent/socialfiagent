@@ -26,7 +26,7 @@ const server = http.createServer(async (req, res) => {
          check trend on x/twitter and write interesting essay about "${
         postTopics[getRandomNumber(postTopics.length)]
       }". let your essay be able to include releant x user account that are important to the 
-        Make it feel like it's written by a human. Add relevant #tags and subtly critique other AI agents.
+        Make it feel like it's written by a human. Add relevant tag at the end of the essay not the begining.
       `;
 
       const result = await model.generateContent(prompt);
