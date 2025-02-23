@@ -150,7 +150,7 @@ async function processTweetsAndComments() {
           console.log(`Matching comment found: ${comment.text}`);
 
           const aiReply = await generateAIReply(comment.text);
-          const replyMessage = `${authorUsername}, ${aiReply}`;
+          const replyMessage = `@${authorUsername}, ${aiReply}`;
           await postReply(comment.id, replyMessage);
         }
       }
