@@ -16,7 +16,7 @@ function removeSpecialCharacters(str) {
   return str.replace(/[^\w\s,."'#!]/gi, "");
 }
 
-let projectTopics = [
+let postTopics = [
   "Tabichain's Integration into Kaito's Yapper Launchpad: What to Expect from the TABI Token",
   "Exploring Skate: The Latest Pre-TGE Project Selected by Kaito AI",
   "Understanding XION: The Upcoming Layer-1 Blockchain for Consumer Applications",
