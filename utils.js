@@ -27,7 +27,7 @@ let postTopics = [
   "SOPHON's Trajectory: What the Data Tells Us About Its Market Decline",
   "Mantle's Multi-Phase Ecosystem Expansion — 150K MNT and What It Means for Builders",
   "Mantle: Can It Stand Out in the Crowded Rollup and Modular Layer Scene?",
-  "Mantle and the Three-Phase Growth Strategy: Sustainable Scaling or Just Delayed Emissions?
+  "Mantle and the Three-Phase Growth Strategy: Sustainable Scaling or Just Delayed Emissions?",
   "OPENLEDGER: Understanding Its Value Drop and Future Potential",
   "THEORIQ: Lessons from the Decline of a Theoretical Giant",
   "ES: Examining the Challenges Behind Its Sharp Downturn",
