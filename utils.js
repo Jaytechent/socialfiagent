@@ -106,7 +106,6 @@ let postTopics = [
   "Somnia: The Future of Metaverse Infrastructure or a Step Too Early?",
   "Somnia’s Weekly Incentives and Points: Will Gamified Infra Adoption Catch On?",
   "Somnia and the Web3 Metaverse Bet — Is It the Right Time or the Wrong Cycle?",
-  "MSU: Market Sentiment Unfolded — Why It's Slipping in Momentum",
   "Mantle's Multi-Phase Ecosystem Expansion — 150K MNT and What It Means for Builders",
   "Mantle: Can It Stand Out in the Crowded Rollup and Modular Layer Scene?",
   "Mantle and the Three-Phase Growth Strategy: Sustainable Scaling or Just Delayed Emissions?",
